@@ -1,0 +1,239 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+        /* header start   */
+        .logo {
+            font-size: 26px;
+            
+          }
+          .menu ul li a {
+            padding: 8px 0 !important;
+             }
+          
+          .btn_d[data-bs-popper] {
+            left: 10px;
+            top: 60px;
+          }
+          .btn_d {
+            width: 250px;
+            padding: 5px 5px;
+          }
+          .btn_d button {
+            padding-left: 10px;
+            
+          }
+
+       /* banner start */
+      .slider {
+        margin: 60px 0 40px;
+      }
+      .s_h1 {
+        font-size: 35px;
+       
+      }
+      .c_p {
+        padding: 30px 0px 40px 0;
+        line-height: 22px;
+      }
+      .s_btn {
+        padding: 10px 15px 10px;
+      }  
+
+      /* service start */
+      .c-Pb {
+        padding-bottom: 60px;
+        padding-top: 30px;
+      }
+      .ser_h1 {
+        font-size: 28px;
+         margin: 20px 0 40px;
+      }
+      .ser_p {
+        margin: 0 10px;
+      }
+      .c_service {
+          margin: 50px 20px 0px 20px;
+           padding: 0 10px 25px;
+      
+      }
+      .c-Pb {
+        padding-bottom: 80px;
+      }
+      .c_h2 {
+        margin: 25px 0 20px;
+      }
+      .cer_p {
+        margin: 20px 0 30px;
+      }
+       /* feature start */
+    
+      .fe_img img {
+        padding: 0 0 20px 0;
+      }
+       .fe_p {
+       padding: 10px 0;
+     }
+      .fe_p2 {
+      margin: 30px 0 20px;
+     }
+     .c-Pb {
+      padding-bottom: 60px;
+      padding-top: 0;
+    }
+
+}
+    /*Small devices (landscape phones, 576px and up)*/
+    @media (min-width: 576px) and (max-width: 767.98px) {
+         /* header start   */
+     .btn_d[data-bs-popper] {
+        left: 100px;
+        top: -6px;
+      }  
+       
+      /* banner start */
+      .slider {
+        margin: 100px 0 80px;
+      }
+      .s_h1 {
+        font-size: 45px;
+       
+      }
+      .c_p {
+        padding: 30px 120px 40px 0;
+        line-height: 22px;
+      }
+      .s_btn {
+       
+        padding: 12px 20px 12px;
+        
+      }
+      /* service start */
+      .c_service {
+        margin-top: 50px;
+        padding: 0 10px 25px;
+      
+      }
+      .c-Pb {
+        padding-bottom: 80px;
+      }
+      .c_h2 {
+        margin: 25px 0 20px;
+      }
+      .cer_p {
+        margin: 20px 0 30px;
+      }
+      /* feature start */
+     .fe_img img {
+     padding: 0 0 50px;
+     }
+      .fe_p {
+  padding: 20px 0;
+    }
+     .fe_p2 {
+  margin: 30px 0 20px;
+    }
+ 
+
+    }
+
+
+    
+    
+    /*medium devices (tablets, 768px and up)*/
+    @media (min-width: 768px) and (max-width: 991.98px){
+     /* header start   */
+     .btn_d[data-bs-popper] {
+        left: 100px;
+        top: -6px;
+      }
+
+/* banner start */
+.slider {
+  margin: 120px 0 100px;
+}
+/* service start */
+
+.c_service {
+  margin: 50px 0 0 0;
+}
+.c-Pb {
+  padding-bottom: 80px;
+}
+/* feature start */
+.fe_img img {
+  padding: 0 0 50px;
+}
+.fe_p {
+  padding: 30px 0;
+}
+.fe_p2 {
+  margin: 30px 0 20px;
+}
+
+
+
+}
+
+    
+    /*Large devices (desktops, 992px and up)*/
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+       /* banner start */
+      .slider {
+        margin: 100px 0 80px;
+      }
+      .s_h1 {
+        font-size: 45px;
+       
+      }
+      /* service start */
+      .ser_h1 {
+     
+        font-size: 28px;
+      }
+      .c_service {
+        margin-top: 100px;
+       
+      }
+      .cer_p {
+        margin: 20px 0 30px;
+      }
+       /* feature start */
+       .fe_img img {
+        padding-right: 20px;
+      }
+    .fe_p {
+      padding: 10px 0;
+    }
+    .fe_p2 {
+      margin: 10px 0 20px;
+    }
+    }
+      
+    
+    /* Extra large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1200px) and (max-width: 1399.98px) {
+   
+     /* banner start */
+     
+    .s_h1 {
+      font-size: 55px;
+     
+    }
+    /* feature start */
+    .fe_p {
+      padding: 30px 0;
+    }
+    .fe_p2 {
+      margin: 35px 0 20px;
+    }
+    }
+    
+    /* Extra Extra large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1400px) {
+   /* feature start */
+   .fe_img img {
+    padding-right: 95px;
+  }
+  
+ 
+
+    }
